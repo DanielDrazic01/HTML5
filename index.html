@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="hr">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Smotra tehničkog stvaralaštva</title>
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+	<body>
+		<header>
+			<h1>Smotra tehničkog stvaralaštva</h1>
+			<div class="icons">
+				<!-- <a href="#" class="exit-icon">&#10005;</a> -->
+				<a href="./forma.html" class="form-icon">&#10005;</a>
+				<a href="#" class="menu-icon" id="menuIcon">&#9776;</a>
+			</div>
+		</header>
+		<nav>
+			<ul class="navigation" id="navigation">
+				<li><a href="#">Projekt</a></li>
+				<li><a href="./vijesti.html">Vijesti</a></li>
+				<li><a href="#">Upute za korištenje</a></li>
+				<li><a href="#">Prijava u sustav</a></li>
+			</ul>
+		</nav>
+
+		<main>
+			<section>
+				<h2>Smotra tehničkog stvaralaštva</h2>
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque sit
+					autem blanditiis veniam consectetur incidunt saepe! Voluptatibus
+					blanditiis repellat, totam quos soluta nihil, aperiam eaque
+					consectetur labore eos ipsa sit harum incidunt nam ullam nemo nesciunt
+					architecto atque vel animi, enim dolorum? Tenetur saepe alias
+					excepturi laudantium atque quo necessitatibus?
+				</p>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+					suscipit mauris ut purus malesuada, eu eleifend nisl malesuada.
+				</p>
+			</section>
+			<section>
+				<h2>Program smotre</h2>
+				<ul>
+					<li>Radionice</li>
+					<li>Izložbe</li>
+					<li>Prezentacije</li>
+				</ul>
+			</section>
+			<section>
+				<h2>Kontakt</h2>
+				<p>Ime i prezime: [Ime Prezime]</p>
+				<p>Adresa: [Adresa]</p>
+				<p>Telefon: [Telefon]</p>
+				<p>Email: [Email]</p>
+			</section>
+		</main>
+
+		<footer>
+			<p>&copy; 2024 Smotra tehničkog stvaralaštva</p>
+		</footer>
+
+		<script>
+			document
+				.getElementById("menuIcon")
+				.addEventListener("click", function () {
+					var navigation = document.getElementById("navigation");
+					if (navigation.style.display === "block") {
+						navigation.style.display = "none";
+					} else {
+						navigation.style.display = "block";
+					}
+				});
+		</script>
+	</body>
+</html>
